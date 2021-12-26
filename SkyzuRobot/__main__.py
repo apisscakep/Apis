@@ -83,29 +83,29 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """
 *Hello {} !*
 ────────────────────────
-✪ I'm an anime theme bot designed to help manage your telegram group with a lot features.
-✪ Maintained by @skyzu ✨
+✪ 𝙷𝚊𝚕𝚕𝚘 𝚙𝚎𝚛𝚔𝚎𝚗𝚊𝚕𝚔𝚊𝚗 𝚗𝚊𝚖𝚊 𝚜𝚊𝚢𝚊 𝚊𝚙𝚒𝚜,𝚜𝚊𝚢𝚊 𝚍𝚒𝚜𝚒𝚗𝚒 𝚍𝚒𝚌𝚒𝚙𝚝𝚊𝚔𝚊𝚗 𝚞𝚗𝚝𝚞𝚔 𝚖𝚎𝚖𝚋𝚊𝚗𝚝𝚞 𝚜𝚝𝚊𝚏𝚏 𝚊𝚍𝚖𝚒𝚗 𝚖𝚎𝚖𝚋𝚊𝚜𝚖𝚒 𝚙𝚊𝚛𝚊 𝚌𝚘𝚠𝚘 𝚜𝚊𝚗𝚐𝚎 𝚐𝚊 𝚔𝚎𝚝𝚊𝚖𝚙𝚞𝚗𝚐
+✪ 𝚘𝚠𝚗𝚎𝚛 @xyfckngyz 💣
 ────────────────────────
 Hit the /help to see available command.
 """
 
 buttons = [
     [
-        InlineKeyboardButton(text="ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅ​", callback_data="help_back"),
+        InlineKeyboardButton(text="𝚑𝚎𝚕𝚙 & 𝚌𝚘𝚖𝚖𝚊𝚗𝚍", callback_data="help_back"),
     ],
     [
-        InlineKeyboardButton(text="ᴀʙᴏᴜᴛ", callback_data="Skyzu_"),
-        InlineKeyboardButton(text="ᴛʀʏ ɪɴʟɪɴᴇ​", switch_inline_query_current_chat=""),
+        InlineKeyboardButton(text="𝙰𝚋𝚘𝚞𝚝", callback_data="Skyzu_"),
+        InlineKeyboardButton(text="𝚃𝚛𝚒 𝚒𝚗𝚕𝚒𝚗𝚎", switch_inline_query_current_chat=""),
     ],
     [
         InlineKeyboardButton(
-            text="sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ​", url="https://github.com/Skyzu/SkyzuRobot"
+            text="𝙶𝙲 𝚄𝚃𝙰𝙼𝙰", url="https://t.me/skuyaphrodite"
         ),
-        InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ​", url=f"https://t.me/{SUPPORT_CHAT}"),
+        InlineKeyboardButton(text="𝚂𝚄𝙿𝙾𝚁𝚃", url=f"https://t.me/sokinkakk"),
     ],
     [
         InlineKeyboardButton(
-            text="➗ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ​ ➗",
+            text="💣 𝙼𝙰𝚂𝚄𝙺𝙰𝙽 𝚂𝙰𝚈𝙰 𝙺𝙴 𝙷𝙰𝚃𝙸𝙼𝚄 💣",
             url=f"t.me/{dispatcher.bot.username}?startgroup=new",
         ),
     ],
@@ -114,7 +114,7 @@ buttons = [
 HELP_STRINGS = """
 Click on the button bellow to get description about specifics command."""
 
-EMI_IMG = "https://telegra.ph/file/56811b69cbcece20bbebf.jpg"
+EMI_IMG = "https://telegra.ph/file/a86b30e09c62796a0047a.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
  You can support the project by contacting @skyzu \
